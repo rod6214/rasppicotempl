@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Blue Debug",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceFolder}/build/src/Ejemplo1.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "external",
+            "gdbTarget": "localhost:3333",
+            "gdbPath" : "arm-none-eabi-gdb",
+            "device": "STM32f103c8t6",
+            "configFiles": [
+                "interface/cmsis-dap.cfg",
+                "target/rp2040.cfg"
+            ],
+            // "runToEntryPoint": "main",
+
+            // "postRestartCommands": [
+            //     "break main",
+            //     "continue"
+            // ] 
+        }
+    ]
+}
