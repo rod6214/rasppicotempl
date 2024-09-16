@@ -4,12 +4,12 @@
         {
             "name": "Blue Debug",
             "cwd": "${workspaceRoot}",
-            "executable": "${workspaceFolder}/build/src/Ejemplo1.elf",
+            "executable": "${workspaceFolder}/build/src/RaspExample.elf",
             "request": "launch",
             "type": "cortex-debug",
             "servertype": "external",
             "gdbTarget": "localhost:3333",
-            "gdbPath" : "arm-none-eabi-gdb",
+            "gdbPath" : "C:/Develop/bin/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gdb",
             "device": "STM32f103c8t6",
             "configFiles": [
                 "interface/cmsis-dap.cfg",

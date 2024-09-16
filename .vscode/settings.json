@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "i2c.h": "c",
+        "stdlib.h": "c",
+        "gpio.h": "c",
+        "testlib.h": "c",
+        "dma.h": "c",
+        "graphics.h": "c",
+        "ssd1306_font.h": "c",
+        "cstdint": "c",
+        "ctype.h": "c",
+        "sd_volume.h": "c",
+        "sd_driver.h": "c"
+    },
+    "cortex-debug.variableUseNaturalFormat": true
+}
